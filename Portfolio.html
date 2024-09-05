@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;600;700&12
+    display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins';
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(153, 153, 226);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+            color: rgb(160, 60, 253);
+        }
+
+        .outerbox {
+            display: flex;
+        }
+
+        .outerbox .box {
+            width: 500px;
+        }
+
+        .lang_img ul li {
+            list-style: none;
+        }
+
+        .lang_img img {
+            width: 60px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .secondSection .box ul li {
+            padding-top: 50px;
+            font-size: 1.5rem;
+        }
+
+        .secondSection .lang_img ul li {
+            padding-top: 38px;
+            padding-left: 50px;
+            font-size: 2rem;
+        }
+
+        .thirdSection {
+            max-width: 90vw;
+            margin: auto;
+
+        }
+
+        .thirdSection h1 {
+            font-size: 2rem;
+            color: rgb(160, 60, 253);
+        }
+
+        .edu-details {
+            display: flex;
+            margin: 0px 20px;
+
+            justify-content: space-evenly;
+
+        }
+
+        .standard {
+            font-size: 1.5rem;
+            margin: 50px 10px;
+            list-style: none;
+            padding: 0 20px;
+            font-size: 1.7rem;
+            color: rgb(118, 164, 228);
+
+
+        }
+
+        .standard ul li {
+            font-size: 1.2rem;
+            padding-top: 20px;
+            color: white;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Pavan </span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <h1>Skills</h1>
+            <div class="outerbox">
+                <div class="box">
+                    <ul>
+                        <li>HTML,CSS,JavaScript</li>
+                        <li>Python </li>
+                        <li>MySQL</li>
+                        <li>Communication and Soft skills</li>
+                    </ul>
+                </div>
+                <div class="lang_img">
+                    <ul>
+                        <li><img src="html.png" alt="">
+                            <img src="css.jpeg" alt="">
+                            <img src="js.jpeg" alt="">
+                        </li>
+                        <li><img src="python.png" alt=""></li>
+                        <li><img src="sql.png" alt=""></li>
+                        <li><img src="soft.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1>Education</h1>
+
+            <ul class="edu-details">
+                <li class="standard">B.Tech
+                    <ul>
+                        <li>69%</li>
+                        <li>Electronics and Communication Engineering</li>
+                        <li>Krishna University</li>
+                        <li>2020-2024</li>
+                    </ul>
+                </li>
+                <li class="standard">Intermediate
+                    <ul>
+                        <li>8.59 CGPA</li>
+                        <li>MPC</li>
+                        <li>Sri Kota Raghavaiah junior college</li>
+                        <li>2018-2020</li>
+                    </ul>
+                </li>
+                <li class="standard">10th
+                    <ul>
+                        <li>9.3 CGPA</li>
+                        <li>Secondary School Certificate </li>
+                        <li>St.Ann's high school</li>
+                        <li>2018</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>My Developer's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contack</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><i class="fa fa-linkedin-square" style="font-size:24px"></i></li>
+                    <li><i class="fa fa-github" style="font-size:24px"></i></li>
+                    <li><i class="fa fa-instagram" style="font-size:24px"></i></li>
+                    <li><i class="fa fa-twitter" style="font-size:24px"></i></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; pavankumarporfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer.','Python Developer.','Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
